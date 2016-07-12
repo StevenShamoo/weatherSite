@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>weatherSite</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+  <body>
+
+<div id="wholePage">
+<div class="row">
+<h2 id="weatherTitle">Weather Connector</h2>
+<h4 id="siteDescription">Please select an option from the drop down menu to begin!</h4>
+  <div class="col-lg-6">
+    <div class="input-group"  id="buttonStyle">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id='dropDownDefault'>Select One!!</span> <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#" id='getWeather'>Get Current Weather</a></li>
+          <li><a href="#" id='fiveDayButton'>Get 7 Day Forcast</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      <input type="text" class="form-control" aria-label="..." placeholder="example input: Phoenix, Az" id="inputBox">
+       <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="goButton">Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+
+
+<div id="container"  align="center">
+  <div id="currentWeather">
+  <div class="panel panel-primary" id="bigPanel">
+  <h1 id="resultsHeader" class="panel-body"></h1>
+  </div>
+  <div class="panel panel-primary" id="resultsPanel">
+  <ul id="resultsList">
+    <li class="resultsListStyles" id="currentTemp"></li>
+    <li class="resultsListStyles" id="highLow"></li>
+    <li class="resultsListStyles" id="description"></li>
+    <li class="resultsListStyles" id="windSpeed"></li>
+    <li class="resultsListStyles" id="windDeg"></li>
+    <li class="resultsListStyles" id="sun"></li>
+  </ul>
+  </div>
+  </div>
+   <div id="resultsList2"></div>
+</div>
+</div>  <!-- this div is the wholepage end -->
+
+  
+  <script src="https://code.jquery.com/jquery-2.1.1.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="main/main.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
