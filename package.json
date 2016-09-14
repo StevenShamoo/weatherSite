@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/StevenShamoo/weatherSite/issues"
   },
-  "homepage": "https://github.com/StevenShamoo/weatherSite#readme"
+  "homepage": "https://github.com/StevenShamoo/weatherSite#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
