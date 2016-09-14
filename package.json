@@ -1,0 +1,19 @@
+{
+  "name": "weathersite",
+  "version": "1.0.0",
+  "description": "A basic weather site, takes different kinds of user inputs and displays the weather from an AJAX call to an API, with those inputs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenShamoo/weatherSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenShamoo/weatherSite/issues"
+  },
+  "homepage": "https://github.com/StevenShamoo/weatherSite#readme"
+}
